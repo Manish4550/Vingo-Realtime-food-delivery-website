@@ -29,7 +29,7 @@ const signUp = async (req, res) => {
         password:hashpassword,
     })
   } catch (error) {
-    console.log("");
+    console.log(" error");
     
   }
 };
