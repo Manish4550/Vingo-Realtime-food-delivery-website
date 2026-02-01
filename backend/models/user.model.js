@@ -1,9 +1,9 @@
-import mongoose, { Types } from "mongoose";
+import mongoose from "mongoose";
 
 const userSchema = new mongoose.Schema(
   {
     fullName: {
-      Type: String,
+      type: String,
       required: true,
     },
     email: {
@@ -17,9 +17,9 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    role: {
+   role: {
       type: String,
-      enum: ["user", "owner", deliveryBoy],
+      enum: ["user", "owner", "deliveryBoy"],
       required: true,
     },
   },
@@ -27,5 +27,5 @@ const userSchema = new mongoose.Schema(
   { timestamps: true },
 );
 
-const User=mongoose.model("User",userSchema)
-export default User
+const User = mongoose.model("User", userSchema);
+export default User;
