@@ -7,7 +7,7 @@ import useGetCurrentuser from "./hooks/useGetCurrentuser";
 import { useSelector } from "react-redux";
 import Home from "./pages/Home";
 
-export const serverUrl = "http://localhost:8000";
+export const serverUrl = "https://quickbite-backend-eb7b.onrender.com";
 
 const App = () => {
   useGetCurrentuser();
