@@ -92,7 +92,7 @@ const SignUp = () => {
           className={`text-3xl font-bold mb-2`}
           style={{ color: primaryColor }}
         >
-          Vingo
+          QuickBite
         </h1>
         <p className="text-gray-600 mb-8">
           Create your account to get started with delicious food deliveries
